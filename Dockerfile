@@ -10,4 +10,4 @@ ENV NUT_CONFIG_PATH=/config
 ENV NUT_SCAN_PATH=/games
 ENV NUT_SCAN_DEBOUNCE_SECONDS=30.0
 CMD cd /app/nutserver && python3 ./nut.py -S
-EXPOSE 9200
+EXPOSE 9000
